@@ -16,6 +16,7 @@ body {
 
 .logo{
   width: 30em;
+  padding: 10px;
 }
 
 .storyofpagani{
@@ -23,7 +24,28 @@ body {
   margin: auto;
 }
 
-.r32{
-  width: 48em;
-  margin: auto;
+.r32 {
+    width: 48em;
+    margin: auto;
+    display: block;
+
+}
+
+
+
+
+.nissanfrontier, .mk5, .storyofpagani,.r32img, .dodge, .dailycarimg{
+  border: 3px solid;
+   padding: 5px 8px; 
+     padding: 0px; 
+    border-radius: 20px;
+    border-color: black;
+}
+
+.r32img, .dodge, .dailycarimg{
+  width: 43em;
+}
+
+p{
+  font-size: 1.3em;
 }
