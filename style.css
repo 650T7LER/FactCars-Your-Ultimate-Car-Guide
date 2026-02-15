@@ -11,7 +11,8 @@ body {
 
 .mk5, .bestsportyhybrids{
   margin: auto;
-  width: 40em;
+  width: 80%;
+
 }
 
 .logo{
@@ -27,7 +28,6 @@ body {
 }
 
 .r32 {
-    width: 48em;
     margin: auto;
     display: block;
 
