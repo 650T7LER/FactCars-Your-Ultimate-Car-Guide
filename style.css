@@ -2,56 +2,76 @@ body {
   background: rgb(211,211,211);
   font-family: sans-serif;
   text-align: center;
-  margin: 7em;
+  margin: 0;
+  padding: 40px 20px;
 }
 
-.nissanfrontier{
-  margin: auto;
+/* Keep your centered layout on larger screens */
+@media (min-width: 900px) {
+  body {
+    margin: 5em auto;
+    max-width: 1100px;
+  }
 }
 
-.mk5, .bestsportyhybrids{
-  margin: auto;
-  width: 80%;
-
-}
-
-.logo{
+/* Logo */
+.logo {
   width: 30em;
-  padding: 10px;
   max-width: 100%;
   height: auto;
+  padding: 10px;
 }
 
-.storyofpagani{
-  width: 40em;
+/* Keep your image sizing style but safer */
+.mk5,
+.bestsportyhybrids {
+  width: 80%;
+  max-width: 100%;
+  height: auto;
   margin: auto;
+  display: block;
 }
 
-.r32 {
-    margin: auto;
-    display: block;
-
+.storyofpagani {
+  width: 40em;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  display: block;
 }
 
-
-
-
-.nissanfrontier, .mk5, .storyofpagani,.r32img, .dodge, .dailycarimg .sportyhybrids{
-  border: 3px solid;
-   padding: 5px 8px; 
-     padding: 0px; 
-    border-radius: 20px;
-    border-color: black;
-    max-width: 100%; 
-    height: auto;
-}
-
-.r32img, .dodge, .dailycarimg{
+.r32img,
+.dodge,
+.dailycarimg {
   width: 43em;
   max-width: 100%;
   height: auto;
+  margin: auto;
+  display: block;
 }
 
-p{
+.nissanfrontier {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+/* Border styling (fixed selector issue) */
+.nissanfrontier,
+.mk5,
+.storyofpagani,
+.r32img,
+.dodge,
+.dailycarimg,
+.bestsportyhybrids {
+  border: 3px solid black;
+  border-radius: 20px;
+  padding: 0;
+}
+
+/* Paragraph text */
+p {
   font-size: 1.3em;
+  padding: 0 10px;
 }
