@@ -40,6 +40,8 @@ body {
      padding: 0px; 
     border-radius: 20px;
     border-color: black;
+    max-width: 100%; 
+    height: auto;
 }
 
 .r32img, .dodge, .dailycarimg{
