@@ -17,6 +17,8 @@ body {
 .logo{
   width: 30em;
   padding: 10px;
+  max-width: 100%;
+  height: auto;
 }
 
 .storyofpagani{
@@ -46,6 +48,8 @@ body {
 
 .r32img, .dodge, .dailycarimg{
   width: 43em;
+  max-width: 100%;
+  height: auto;
 }
 
 p{
